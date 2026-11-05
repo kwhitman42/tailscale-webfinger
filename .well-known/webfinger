@@ -2,7 +2,7 @@
   "subject": "acct:kevinhasyour.money",
   "links": [
     {
-      "rel": "http://openid.net",
+      "rel": "[http://openid.net/specs/connect/1.0/issuer](http://openid.net/specs/connect/1.0/issuer)",
       "href": "https://zoho.com"
     }
   ]
