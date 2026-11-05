@@ -1,9 +1,9 @@
 {
-  "subject": "acct:kevinhasyour.money",
+  "subject": "acct:kwhitman@kevinhasyour.money",
   "links": [
     {
       "rel": "http://openid.net/specs/connect/1.0/issuer",
-      "href": "https://zoho.com"
+      "href": "https://accounts.zoho.com"
     }
   ]
 }
