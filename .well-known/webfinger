@@ -1,0 +1,20 @@
+export default {
+  async fetch(request) {
+    const responseBody = {
+      "subject": "acct:kevinhasyour.money",
+      "links": [
+        {
+          "rel": "http://openid.net",
+          "href": "https://accounts.zoho.com"
+        }
+      ]
+    };
+
+    return new Response(JSON.stringify(responseBody), {
+      headers: { 
+        'content-type': 'application/jrd+json; charset=utf-8',
+        'access-control-allow-origin': '*'
+      },
+    });
+  },
+};
